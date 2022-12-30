@@ -1,0 +1,115 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.rodape__lista {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        padding: 4em 0;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .rodape__lista {
+        display: block;
+        color: var(--cinza);
+        font-size: 14px;
+    }
+
+    .rodape__item {
+        margin-top: 1em;
+        padding: 1em 2em;
+    }
+
+    .rodape__link {
+        color: var(--cinza-escuro);
+        font-size: 14px;
+        text-decoration: none;
+        padding-left: 1em;
+        text-align: center;
+    }
+    
+    .rodape__item--caelun{
+        background: url("../img/Caelum.svg") no-repeat;
+    }
+
+    .rodape__item--CasadoCodigo {
+        background: url("../img/CasaDoCodigo.svg") no-repeat;
+    }
+
+    .rodape__item--alura {
+        background: url("../img/Alura.svg") no-repeat;
+    }
+
+    .rodape__item--empresas {
+        background: url("../img/AluraEmpresas.svg") no-repeat;
+    }
+
+    .rodape__item--start {
+        background: url("../img/AluraStart.svg") no-repeat;
+    }
+
+    .rodape__item--dot {
+        background: url("../img/MusicDot.svg") no-repeat;
+    }
+
+    .rodape__item--lingua {
+        background: url("../img/AluraLingua.svg") no-repeat;
+    }
+
+    .rodape__item--pm3 {
+        background: url("../img/PM3.svg") no-repeat;
+    }
+
+    .rodape__item--tech {
+        background: url("../img/HipstersTech.svg")no-repeat;
+    }
+
+    .rodape__item--scuba {
+        background: url("../img/Scuba.svg") no-repeat;
+    }
+
+    .rodape__item--layers {
+        background: url("../img/Layers.svg") no-repeat;
+    }
+
+    .rodape__item--boss {
+        background: url("../img/LikeABoss.svg") no-repeat;
+    }
+
+    .rodape__item--carreira{
+        background: url("../img/CarreiraSemFronteira.svg") no-repeat;
+    }
+    .rodape__item--jobs {
+        background: url("../img/HipstersJobs.svg") no-repeat;
+    }
+
+    .rodape__item--guj {
+        background: url("../img/GUJ.svg") no-repeat;
+    }
+
+
+}
+
+@media screen and (min-width:1728px) {
+
+    .rodape__lista {
+        padding-left: 1em;
+        border-left: 1px solid var(--cinza);
+    }
+
+
+}
