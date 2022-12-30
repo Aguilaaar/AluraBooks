@@ -1,2 +1,2 @@
 # AluraBooks
-Projeto criado durante curso de HTML e CSS na Alura
+Projeto criado durante curso de responsividade na Alura
